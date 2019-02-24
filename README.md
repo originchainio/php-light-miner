@@ -9,6 +9,7 @@ Pool mining: php ./Lightminer.php pool <pool> <your-address> <your-work>
   
   
   
+  
 PHP environment:
 
 version > 7.2
