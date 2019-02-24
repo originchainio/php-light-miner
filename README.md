@@ -3,12 +3,11 @@ Simple mining software based on PHP
 
 Usage:
 
-Solo mining: php ./Lightminer.php solo <node> <public_key> <private_key>
+"Solo mining: php ./Lightminer.php solo <node> <public_key> <private_key>"
   
-Pool mining: php ./Lightminer.php pool <pool> <your-address> <your-work>
+"Pool mining: php ./Lightminer.php pool <pool> <your-address> <your-work>"
   
-  
-  
+========================================================================================
   
 PHP environment:
 
