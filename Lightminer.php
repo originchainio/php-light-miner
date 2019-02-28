@@ -187,7 +187,7 @@ class Lightminer{
     private function output(){
         echo "============================\n";
         echo "== Orc Miner ".self::Ver."  ==\n";
-        echo "== www.originchain.io    ==\n";
+        echo "== www.originchain.net    ==\n";
         echo "============================\n\n";
     }
     public function help(){
@@ -261,7 +261,7 @@ class Lightminer{
         }, $converted));
     }
 }
-date_default_timezone_set('PRC');
+date_default_timezone_set("UTC");
 $Lightminer=new Lightminer();
 if (!isset($argv[1])) {
 	$Lightminer->help();
